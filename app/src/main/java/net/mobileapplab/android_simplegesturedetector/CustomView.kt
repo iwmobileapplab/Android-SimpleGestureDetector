@@ -21,6 +21,9 @@ import android.graphics.PointF
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
+import net.mobileapplab.simplegesture.library.DragGestureDetector
+import net.mobileapplab.simplegesture.library.PinchGestureDetector
+import net.mobileapplab.simplegesture.library.RotateGestureDetector
 
 class CustomView(context: Context?, attrs: AttributeSet?) : View(context, attrs),
         DragGestureDetector.DragGestureListener, PinchGestureDetector.PinchGestureListener, RotateGestureDetector.RotateGestureListener {

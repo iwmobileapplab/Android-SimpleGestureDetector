@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.mobileapplab.android_simplegesturedetector
+package net.mobileapplab.simplegesture.library
 
 import android.view.MotionEvent
 import android.view.MotionEvent.INVALID_POINTER_ID
